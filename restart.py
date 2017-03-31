@@ -13,7 +13,6 @@ def restart():
     }
 
     response = requests.post(url, data)
-    print(response.text)
 
 if __name__ == '__main__':
     restart()
